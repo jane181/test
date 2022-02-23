@@ -16,6 +16,7 @@ public class main {
             newStr[i] = "{";
         } else if (newStr[i].equals("return")) {
             newStr[i] = "ret";
+           System.out.print("    ");
             flag = 1;
         } else if (newStr[i].equals(";")) {
             newStr[i] = " ";
